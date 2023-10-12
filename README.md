@@ -51,7 +51,7 @@ Install torch 1.11.0
   pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
-Install tensorflow 1.15.2
+Install tensorflow 2.5.0
 
 ```
   pip install tensorflow==2.5.0
