@@ -54,7 +54,7 @@ Install torch 1.11.0
 Install tensorflow 1.15.2
 
 ```
-  pip install tensorflow==1.15.2
+  pip install tensorflow==2.5.0
 ```
 
 Installing pysoundfile
