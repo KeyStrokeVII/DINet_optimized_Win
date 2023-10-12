@@ -41,7 +41,7 @@ def compute_crop_radius(video_size, landmark_data_clip, random_scale=None):
     ) * random_scale
     radius_clip = np.max(np.stack([radius_h, radius_w], 1), 1) // 2
     radius_max = np.max(radius_clip)
-    radius_max = (np.int(radius_max / 4) + 1) * 4
+    radius_max = (int(radius_max / 4) + 1) * 4
     radius_max_1_4 = radius_max // 4
     clip_min_h = landmark_data_clip[:, 29, 1] - radius_max
     clip_max_h = landmark_data_clip[:, 29, 1] + radius_max * 2 + radius_max_1_4
