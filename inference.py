@@ -105,7 +105,7 @@ if __name__ == "__main__":
         )
     video_landmark_data = load_landmark_openface(
         opt.source_openface_landmark_path
-    ).astype(np.int)
+    ).astype(int)
 
     # align frame with driving audio
     logging.info("aligning frames with driving audio")
